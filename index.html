@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class='main'>
+        <div>
+            <h2> Age Converter</h2>
+            <div style="margin-left:50px; margin-top: 20px;">
+                <div>
+                    <div class='sec1'>
+                        <label style="margin-left: 70px;">Human Age</label>
+                        <input id='input1' type='number' onclick="clear()">
+                    </div>
+
+                </div>
+                <div>
+                    <div class='sec2'>
+                        <label >Choose Month </label>
+                        <select name="" id="select1" class="btn">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                      
+                    </div>
+
+                    
+                   
+
+                    <div class='sec2'>
+                        <label>Dog Age In YMD</label>
+                        <input id='year1' type='text'  readonly>
+                    </div>
+
+                        <button class="btn" onclick="ageCalculator()">Check</button>
+                   
+                </div>
+            </div>
+        </div>
+
+</body>
+<script src="index.js">
+</script>
+
+</html>
